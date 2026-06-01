@@ -1,0 +1,17 @@
+<appConfig>
+  <server>
+    <host>127.0.0.1</host>
+    <port>5050</port>
+    <heartbeatSeconds>4</heartbeatSeconds>
+    <readTimeoutMillis>16000</readTimeoutMillis>
+    <connectTimeoutMillis>5000</connectTimeoutMillis>
+  </server>
+  <game>
+    <boardSize>15</boardSize>
+    <winLength>5</winLength>
+    <maxChatLength>220</maxChatLength>
+  </game>
+  <persistence>
+    <historyFile>history/game-history.xml</historyFile>
+  </persistence>
+</appConfig>
